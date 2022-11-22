@@ -34,7 +34,7 @@ const newGalleryEl = images.map(image => {
   <li class = "li_gallery">
     <img
       class = "img_gallery"
-      src="${image.url}
+      src="${image.url}"
       alt="${image.alt}"
       >
     </img>

@@ -11,9 +11,12 @@ const refs = {
 };
 refs.button.addEventListener("click", onButton);
 
+
+
 function onButton(event) {
-  refs.span.textContent = getRandomHexColor();
-  document.body.style.background = getRandomHexColor();
+  const chengeColor = getRandomHexColor();
+  refs.span.textContent = chengeColor;
+  document.body.style.background = chengeColor;
 
 }
 

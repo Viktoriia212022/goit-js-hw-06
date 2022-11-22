@@ -1,5 +1,6 @@
 const formEl = document.querySelector(".login-form");
 formEl.addEventListener("submit", formCheck);
+
 function formCheck(event) {
   event.preventDefault();
   const formElement = event.currentTarget.elements;
@@ -14,7 +15,7 @@ function formCheck(event) {
     email,
     password,
   };
-  // console.log(formData);
+  console.log(formData);
   formEl.reset();
 }
 

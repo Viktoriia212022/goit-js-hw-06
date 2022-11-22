@@ -3,14 +3,14 @@ console.log('Number of categories:', categoriesEl.length);
 
 
 
-function Fn(element) {
+function countList(element) {
     const categoryElTitle = element.firstElementChild;
     console.log('Category:', categoryElTitle.textContent);
     const categoryElLi = categoryElTitle.nextElementSibling; 
      console.log('Elements:',categoryElLi.children.length)
 }
 
-categoriesEl.forEach(Fn);
+categoriesEl.forEach(countList);
 
 // const categoryElAnimal = categoriesEl[0].firstElementChild;
 // console.log('Category:', categoryElAnimal.textContent);
